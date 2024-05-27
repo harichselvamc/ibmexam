@@ -1,0 +1,12 @@
+import nltk
+nltk.download('punkt')
+from nltk.tokenize import sent_tokenize
+
+text = "Hello there! How are you doing today? This is a sentence tokenization example."
+
+# Tokenize the text into sentences
+sentences = sent_tokenize(text)
+
+# Output the sentences
+print(sentences)
+# Output: ['Hello there!', 'How are you doing today?', 'This is a sentence tokenization example.']
